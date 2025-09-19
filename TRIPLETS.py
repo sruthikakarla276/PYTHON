@@ -30,21 +30,16 @@ while(1):
         l=int(input("ENTER LENGTH OF TRI: "))
         b=int(input("ENTER BREADTH OF TRI: "))
         l=int(input("ENTER HEIGHT OF TRI:  "))
-    elif(a==5):
+    elif(a==5):'''
 
 
-
-    
-       '''
 def gcb(a,b):
     while(b!=0):
         res= a%b
         a=b
         b=res
 def cop():
-    cop(a,b)
-
-    
+    cop(a,b)    
 a=int(input("enter any number"))
 for i in range(5,a):
     for j in range(4,i):
@@ -125,3 +120,4 @@ for i in range(5,a):
 
     
         
+
